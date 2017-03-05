@@ -8,6 +8,7 @@ default: &default
   adapter: sqlite3
   pool: 5
   timeout: 5000
+  password: omuctf_flag{cok_flag_var_dimi} #flag
 
 development:
   <<: *default
